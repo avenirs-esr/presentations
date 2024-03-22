@@ -31,11 +31,8 @@ jobs:
         run: |
           echo "Toc generation - Start"
           curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
-          echo "Toc generation - after curl"
           chmod a+x gh-md-toc
-          echo "Toc generation - after chmod"
           files=`ls docs/*.md`; for f in $files; do echo "f=$f";  [ -n "`cat $f | grep '<!--ts'`" ] && ./gh-md-toc --insert --no-backup --hide-footer $f || echo "File ignored $f";  done
-          echo "Toc generation - after instert"
           rm gh-md-toc
 
      

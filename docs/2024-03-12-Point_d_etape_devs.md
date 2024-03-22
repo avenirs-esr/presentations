@@ -1,6 +1,7 @@
 ---
 marp: true
 theme: gaia
+avenirs-toc: Point d'étape - Développement
 paginate: true
 _class:
   - invert

@@ -19,7 +19,7 @@ jobs:
     steps:
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Ensure build dir exists
         run: mkdir -p build
@@ -27,27 +27,14 @@ jobs:
       - name: Copy images directory (if exists)
         run: if [[ -d img ]]; then cp -R img build/img; fi
 
-      - name: Marp Build (README)
-        uses: docker://marpteam/marp-cli:v3.0.2
-        with:
-          args: README.md -o build/index.html
-        env:
-          MARP_USER: root:root
+      - name: Toc generation
+        run: |
+          curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
+          chmod a+x gh-md-toc
+          files=`grep "<\!\-\-ts" -l docs/*`; for f in $files; do ./gh-md-toc --insert --no-backup --hide-footer $f; done
+          rm gh-md-toc
 
-      - name: Marp Build (README.pdf)
-        uses: docker://marpteam/marp-cli:v3.0.2
-        with:
-          args: README.md --allow-local-files -o build/README.pdf
-        env:
-          MARP_USER: root:root
-
-      - name: Marp Build (README.pptx)
-        uses: docker://marpteam/marp-cli:v3.0.2
-        with:
-          args: README.md --allow-local-files -o build/README.pptx
-        env:
-          MARP_USER: root:root
-
+     
       - name: Check if docs folder exists
         id: docs-folder-exists
         run: bash -c "[[ -d docs ]] ; echo \"has_docs=\$?\" >> \"$GITHUB_OUTPUT\""
@@ -57,6 +44,16 @@ jobs:
         uses: docker://marpteam/marp-cli:v3.0.2
         with:
           args: -I docs/ -o build/docs/
+        env:
+          MARP_USER: root:root
+
+      - name: Insert Presentation list in README.md
+        run: bash ./scripts/generate-toc.sh -v
+  
+      - name: Index from README
+        uses: docker://marpteam/marp-cli:v3.0.2
+        with:
+          args: --html README.md -o build/index.html
         env:
           MARP_USER: root:root
 

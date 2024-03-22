@@ -34,7 +34,7 @@ jobs:
           echo "Toc generation - after curl"
           chmod a+x gh-md-toc
           echo "Toc generation - after chmod"
-          ls docs
+          env
           files=`grep "<\!\-\-ts" -l docs/*`; echo "files: $files"; for f in $files; do echo "f=$f"; ./gh-md-toc --insert --no-backup --hide-footer $f; echo "done"; done
           echo "Toc generation - after instert"
           rm gh-md-toc

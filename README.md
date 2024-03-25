@@ -1,18 +1,9 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-permalink: /
-is_menu_entry: true
-position: left
-order: 1
-layout: page
-title: Home
----
+
 # Development presentations
 This Github project aim contains the developpers presentations. 
 
 ## Technologies
-The presentations are written in [Markdown](https://www.markdownguide.org/cheat-sheet/){:target="_blank"} and use [Github pages](https://pages.github.com/){:target="_blank"}, [Github actions](https://docs.github.com/fr/actions){:target="_blank"} and [Marp](https://marp.app/){:target="_blank"}.
+The presentations are written in <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">Markdown</a> and use [Github pages](https://pages.github.com/){:target="_blank"}, [Github actions](https://docs.github.com/fr/actions){:target="_blank"} and [Marp](https://marp.app/){:target="_blank"}.
 
 ## New presentations
 The new presentations should be created under the directory docs.<br/>

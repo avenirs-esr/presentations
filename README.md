@@ -23,6 +23,6 @@ gh-md-toc is executed vi the Github actions, step Toc generation. If the file do
 A main TOC (a presentations list) is generated an inserted in the index file via the Github actions. It uses the script [generate-toc.sh](https://github.com/avenirs-esr/presentations/blob/c78d67f3ce3eaa1c33e7458a8cb6a57f60d84f6a/scripts/generate-toc.sh). 
 
 The insertion slot is determined by the comment
-`<!-- {{TOC}} -->` in the file [index.template.md](https://github.com/avenirs-esr/presentations/blob/3d6d95017c072d0efff178592fee46b453419599/index.template.md).
+`<!-- {{TOC}} -->` in the file [index.template.md](https://github.com/avenirs-esr/presentations/blob/3d6d95017c072d0efff178592fee46b453419599/index.template.md?plain=1#L52).
 
 The title is extracted from the file name or should be set via the optional property [avernis-toc](https://github.com/avenirs-esr/presentations/blob/3d6d95017c072d0efff178592fee46b453419599/docs/2024-03-12-Point_d_etape_devs.md?plain=1#L4) in the front matter.

@@ -48,13 +48,13 @@ jobs:
         env:
           MARP_USER: root:root
 
-      - name: Insert Presentation list in README.md
+      - name: Main TOC - Insert Presentations list
         run: bash ./scripts/generate-toc.sh -v
   
-      - name: Index from README
+      - name: Index from index file template
         uses: docker://marpteam/marp-cli:v3.0.2
         with:
-          args: --html README.md -o build/index.html
+          args: --html index.template.md -o build/index.html
         env:
           MARP_USER: root:root
 

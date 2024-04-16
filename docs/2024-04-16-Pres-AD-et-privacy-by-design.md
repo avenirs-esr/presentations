@@ -28,7 +28,13 @@ style: |
     --color-header: #fff;
     --color-header-shadow: transparent;
     --marpit-root-font-size: 28px;
+    
   }
+  section {
+    line-height: 1.2;
+    padding : 30px 40px;
+  }
+ 
   li {
     font-szie: 1em;
     margin: .1em 0;
@@ -57,9 +63,6 @@ Julien Gribonvald - Coordinateur Technique ESUP
 Arnaud Deman - Architecte et développeur ESUP
 
 ---
-<!--
-header: Security/Privacy by design
--->
 ## Sécurité & confidentialité : contexte
 
 * Problématiques qui ne peuvent plus être traitées à la marge.
@@ -76,9 +79,6 @@ header: Security/Privacy by design
   - ...
 
 ---
-<!--
-header: Security/Privacy by design
--->
 
 ## Security by design
   - Prise en compte de la sécurité dès la conception et à chaque phase du projet. 
@@ -89,9 +89,7 @@ header: Security/Privacy by design
   - Processus d'amélioration continue.
   - Golden Path : baliser au mieux la voie pour atteindre l'objectif.
 ---
-<!--
-header: Procédures envisagées
--->  
+
 ## Mise en oeuvre
 - Procédure en cours d'élaboration.
 - Documents de sécurité : niveau projet & grands modules fonctionnels.
@@ -102,9 +100,6 @@ header: Procédures envisagées
   - Check listes thématiques.
   
 ---
-<!--
-header: Schéma général
--->  
 ## Schéma général
 
 <style scoped type="text/css">

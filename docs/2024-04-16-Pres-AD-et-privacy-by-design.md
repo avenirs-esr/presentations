@@ -28,6 +28,14 @@ style: |
     --color-header: #fff;
     --color-header-shadow: transparent;
   }
+  li {
+    font-szie: 1em;
+    margin: .1em 0;
+  }
+  ul > li > ul > li {
+  font-size: .9em;
+  margin: unset;
+}
   footer {
     height: 100px;
     display:grid;
@@ -48,7 +56,9 @@ Julien Gribonvald - Coordinateur Technique ESUP
 Arnaud Deman - Architecte et développeur ESUP
 
 ---
-
+<!--
+header: Security/Privacy by design
+-->
 ## Sécurité & confidentialité : contexte
 
 * Problématiques qui ne peuvent plus être traitées à la marge : responsabilité et crédibilité.
@@ -71,14 +81,7 @@ header: Security/Privacy by design
 
 ## Security by design
   - Prise en compte de la sécurité dès la conception et à chaque phase du projet. 
-  - Repose sur un certain nombre de grands principes : 
-    - limiter surface d'attaque, 
-    - principe de moindre privilège, 
-    - zero confiance, 
-    - défendre en profondeur, 
-    - tests et audits,
-    - procédures ouvertes,
-    - ...   
+  - Repose sur un certain nombre de grands principes : surface d'attaque, moindre privilèges, défense en profondeur, etc.
   - Mise en place de procédures documentées.
   - Puis implémentées : revues de code, vérifications automatiques, etc.
   - ... et révisées régulièrement.

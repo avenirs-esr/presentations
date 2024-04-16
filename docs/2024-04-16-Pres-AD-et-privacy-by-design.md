@@ -112,7 +112,7 @@ header: Schéma général
   }
 </style>
 
-![Big Picture](./img/security-by-design-big-picture.png)
+![Big Picture](../img/security-by-design-big-picture.png)
 
 ---
 

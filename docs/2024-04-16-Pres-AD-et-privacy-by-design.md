@@ -27,6 +27,7 @@ style: |
     --color-highlight-heading: #99c;
     --color-header: #fff;
     --color-header-shadow: transparent;
+    --marpit-root-font-size: 28px;
   }
   li {
     font-szie: 1em;
@@ -61,7 +62,7 @@ header: Security/Privacy by design
 -->
 ## Sécurité & confidentialité : contexte
 
-* Problématiques qui ne peuvent plus être traitées à la marge : responsabilité et crédibilité.
+* Problématiques qui ne peuvent plus être traitées à la marge.
 * Caratéristiques du projet :
     - Mode SASS / hybride, cadre national.
     - Projet complexe.

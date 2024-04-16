@@ -1,0 +1,124 @@
+---
+marp: true
+theme: gaia
+avenirs-toc: Point d'étape - Focus sur la sécurité
+paginate: true
+_class:
+  - invert
+  - lead
+header: ""
+footer: '![height:80px](https://avenirs-esr.github.io/dev-doc/assets/images/avenir-esr-logo_medium.jpg) ![height:80px](https://www.esup-portail.org/sites/default/files/logo-esupportail_1.png)'
+style: |
+  section::after {
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+---
+
+<style>
+  :root {
+    #--color-background: #ddd;
+    #--color-background-code: #ccc;
+    --color-background-paginate: rgba(128, 128, 128, 0.05);
+    #--color-foreground: #345;
+    --color-highlight: #f96;
+    --color-highlight-hover: #aaf;
+    --color-highlight-heading: #99c;
+    --color-header: #fff;
+    --color-header-shadow: transparent;
+  }
+  footer {
+    height: 100px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:100%;
+  }
+  footer img:nth-of-type(2) {
+    grid-column: 4;
+    background-color: #fff;
+  }
+</style>
+
+# **Focus sur la sécurité**
+
+***16/04/2024***
+
+Julien Gribonvald - Coordinateur Technique ESUP
+Arnaud Deman - Architecte et développeur ESUP
+
+---
+
+## Sécurité & confidentialité : contexte
+
+* Problématiques qui ne peuvent plus être traitées à la marge : responsabilité et crédibilité.
+* Caratéristiques du projet :
+    - Mode SASS / hybride, cadre national.
+    - Projet complexe.
+    - Forte population d'utilisateurs potentiels.
+    - De nombreuses interactions avec des services extérieurs.
+  
+* Domaine vaste et complexe : un effort de **formalisation nécessaire.**
+* Actualisation des connaissances : 
+  - [OWASP](https://owasp.org/) : Open Worldwide Application Security Project.
+  - [ANNSI](https://cyber.gouv.fr/decouvrir-lanssi) : Agence nationale de la sécurité des systèmes d'information.
+  - ...
+
+---
+<!--
+header: Security/Privacy by design
+-->
+
+## Security by design
+  - Prise en compte de la sécurité dès la conception et à chaque phase du projet. 
+  - Repose sur un certain nombre de grands principes : 
+    - limiter surface d'attaque, 
+    - principe de moindre privilège, 
+    - zero confiance, 
+    - défendre en profondeur, 
+    - tests et audits,
+    - procédures ouvertes,
+    - ...   
+  - Mise en place de procédures documentées.
+  - Puis implémentées : revues de code, vérifications automatiques, etc.
+  - ... et révisées régulièrement.
+  - Processus d'amélioration continue.
+  - Golden Path : baliser au mieux la voie pour atteindre l'objectif.
+---
+<!--
+header: Procédures envisagées
+-->  
+## Mise en oeuvre
+- Procédure en cours d'élaboration.
+- Documents de sécurité : niveau projet & grands modules fonctionnels.
+  - Contexte, surface d'attaque, technologies, etc.
+- Documents transversaux : 
+  - Dictionnaire des données classifiées par niveau de criticité.
+  - Matrices des droits / rôles.
+  - Check listes thématiques.
+  
+---
+<!--
+header: Schéma général
+-->  
+## Schéma général
+
+<style scoped type="text/css">
+  img[alt="Big Picture"] {
+    width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+</style>
+
+![Big Picture](./img/security-by-design-big-picture.png)
+
+---
+
+<!--
+header: Ressources
+-->
+## [Pour tout savoir](https://avenirs-esr.github.io/dev-doc/)
+
+### https://avenirs-esr.github.io/dev-doc/

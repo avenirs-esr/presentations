@@ -81,8 +81,9 @@ Arnaud Deman - Architecte et développeur ESUP
 ---
 
 ## Security by design
-  - Prise en compte de la sécurité dès la conception et à chaque phase du projet. 
-  - Repose sur un certain nombre de grands principes : surface d'attaque, moindre privilèges, défense en profondeur, etc.
+  - Prise en compte de la sécurité dès la conception,
+  - puis à chaque phase du cycle de vie du projet. 
+  - Repose sur un certain nombre de grands principes : surface d'attaque, moindre privilège, défense en profondeur, etc.
   - Mise en place de procédures documentées.
   - Puis implémentées : revues de code, vérifications automatiques, etc.
   - ... et révisées régulièrement.
@@ -115,9 +116,6 @@ Arnaud Deman - Architecte et développeur ESUP
 
 ---
 
-<!--
-header: Ressources
--->
 ## [Pour tout savoir](https://avenirs-esr.github.io/dev-doc/)
 
 ### https://avenirs-esr.github.io/dev-doc/

@@ -7,7 +7,7 @@ _class:
   - invert
   - lead
 header: ""
-footer: '![height:80px](https://avenirs-esr.github.io/dev-doc/assets/images/avenir-esr-logo_medium.jpg) ![height:80px](https://www.esup-portail.org/sites/default/files/logo-esupportail_1.png)'
+footer: '![height:40px](https://avenirs-esr.github.io/dev-doc/assets/images/avenir-esr-logo_medium.jpg) ![height:40px](https://www.esup-portail.org/sites/default/files/logo-esupportail_1.png)'
 style: |
   section::after {
     left: 0;
@@ -44,7 +44,7 @@ style: |
   margin: unset;
 }
   footer {
-    height: 100px;
+    height: 50px;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows:100%;

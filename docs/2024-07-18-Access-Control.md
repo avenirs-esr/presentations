@@ -110,7 +110,16 @@ Arnaud Deman - Architecte et développeur ESUP
 
 ---
 ## Intégration avec APISIX 
-![RBAC Assignments](../img/RBAC-APIM.png)  
+
+<style scoped type="text/css">
+  img[alt="RBAC APIM"] {
+    width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+</style>
+![RBAC APIM](../img/RBAC-APIM.png)  
 
 * Configuration de plugin réutilisable : 
   - [Exemple de configuration](https://github.com/avenirs-esr/srv-dev/blob/2105f8428cff5b7bd904db9118a67a786c6887ab/services/apisix/scripts/routes/experiments/access_control_plugin.curl.sh)

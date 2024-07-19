@@ -25,4 +25,4 @@ A main TOC (a presentations list) is generated an inserted in the index file via
 The insertion slot is determined by the comment
 `<!-- {{TOC}} -->` in the file [index.template.md](https://github.com/avenirs-esr/presentations/blob/3d6d95017c072d0efff178592fee46b453419599/index.template.md?plain=1#L52).
 
-The title is extracted from the file name or should be set via the optional property [avernis-toc](https://github.com/avenirs-esr/presentations/blob/3d6d95017c072d0efff178592fee46b453419599/docs/2024-03-12-Point_d_etape_devs.md?plain=1#L4) in the front matter.
+The title is extracted from the file name or should be set via the optional property [avenirs-toc](https://github.com/avenirs-esr/presentations/blob/3d6d95017c072d0efff178592fee46b453419599/docs/2024-03-12-Point_d_etape_devs.md?plain=1#L4) in the front matter.

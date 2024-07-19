@@ -65,7 +65,7 @@ Arnaud Deman - Architecte et développeur ESUP
 ## Sécurité & contrôle d'accès : contexte
 
 * Enjeu de sécurité fort au niveau du projet (c.f. [security/privacy by design](2024-04-16-Pres-AD-et-privacy-by-design.md)).
-* Besoin d'avoir une gestion fine des droits, e.g. un pair doit pouvoir accéder en lecture à une rubrique d'un portfolio, écrire des commentaires, pour une période de temps donnée.
+* Besoin d'avoir une gestion fine des droits.
 * S'appuyer sur un modèle éprouvé et compréhensible.
 * Doit s'interfacer avec l'API manager.
 * Système très sollicité : doit être très **réactif**

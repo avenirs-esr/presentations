@@ -90,6 +90,7 @@ Arnaud Deman - Architecte et développeur ESUP
     margin-right: auto;
     display: block;
   }
+  </style>
 ![RBAC Concepts](../img/RBAC-concepts.png)
 
 ---
@@ -100,6 +101,7 @@ Arnaud Deman - Architecte et développeur ESUP
     margin-right: auto;
     display: block;
   }
+  </style>
 ![RBAC Assignments](../img/RBAC-assignment.png)
 
   

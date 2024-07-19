@@ -127,7 +127,7 @@ Arnaud Deman - Architecte et développeur ESUP
 
 <style scoped type="text/css">
   img[alt="RBAC APIM"] {
-    width: 75%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -135,7 +135,7 @@ Arnaud Deman - Architecte et développeur ESUP
 </style>
 ![RBAC APIM](../img/RBAC-APIM.png)  
 * Nécessité de faire le lien entre action et requête http (URI + méthode)
-* Configuration de plugin réutilisable : [exemple de configuration](https://github.com/avenirs-esr/srv-dev/blob/2105f8428cff5b7bd904db9118a67a786c6887ab/services/apisix/scripts/routes/experiments/access_control_plugin.curl.sh) / [exemple d'utilisation au niveau d'une route](https://github.com/avenirs-esr/srv-dev/blob/2105f8428cff5b7bd904db9118a67a786c6887ab/services/apisix/scripts/routes/experiments/access_control-edit.curl.sh)
+* Configuration de plugin réutilisable : [exemple de configuration](https://github.com/avenirs-esr/srv-dev/blob/2105f8428cff5b7bd904db9118a67a786c6887ab/services/apisix/scripts/routes/experiments/access_control_plugin.curl.sh) / [d'utilisation](https://github.com/avenirs-esr/srv-dev/blob/2105f8428cff5b7bd904db9118a67a786c6887ab/services/apisix/scripts/routes/experiments/access_control-edit.curl.sh)
 
 
 ---

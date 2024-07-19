@@ -149,7 +149,7 @@ Arnaud Deman - Architecte et développeur ESUP
 * Test de charge -> Jmeter ?
 * Gestion du cache : mise en place d'un cache court de quelques secondes (ex. introspection) ?
 * Cohérence des noms de packages / dossier d'architecture.
-* Implémentation des autres méthodes de gestion, dont la liste est à déterminer. Par exemple: 
+* Implémentation des autres méthodes de gestion (liste est à déterminer): 
   * lister les roles/permissions d'un utilisateur
   * lister les utilisateurs associés à un rôle, 
   * etc.

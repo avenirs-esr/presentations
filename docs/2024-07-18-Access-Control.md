@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: gaia
-avenirs-toc: Point d'étape - Focus sur la sécurité
+avenirs-toc: Module de sécurité - Focus sur le contrôle d'accès
 paginate: true
 _class:
   - invert
@@ -55,7 +55,7 @@ style: |
   }
 </style>
 
-# *Contrôle d'accès**
+# Contrôle d'accès
 
 ***19/07/2024***
 
@@ -73,6 +73,7 @@ Arnaud Deman - Architecte et développeur ESUP
   * L'utilisateur U est-il autorisé à exécuter l'action A concernant la ressource R à un instance t ?
   * Lister les rôles et permissions d'un utilisateur.
   * Lister les utilisateurs autorisés à exécuter une action sur une resource.
+  * ...
 
 ---
 

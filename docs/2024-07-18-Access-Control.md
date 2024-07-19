@@ -91,10 +91,13 @@ Arnaud Deman - Architecte et développeur ESUP
 ![RBAC Assignments](../img/RBAC-assignment.png)
 
   
-L'objet d'assignation est l'élément qui permet de déterminer si un utilisateur est autorisé à réaliser une action à un instant t.
+*L'objet d'assignation est l'élément qui permet de déterminer si un utilisateur est autorisé à réaliser une action à un instant t.*
+
 ---
 ## RBAC : algorithme 
 ![RBAC Assignments](../img/RBAC-algo.png)
+
+**Remarque :** la notion de contexte ne représente pas de difficulté particulière à été laissée de côté dans un premier temps pour une question de simplicité.
 
 ## Intégration avec APISIX 
 ![RBAC Assignments](../img/RBAC-APIM.png)  

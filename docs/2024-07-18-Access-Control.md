@@ -134,11 +134,9 @@ Arnaud Deman - Architecte et développeur ESUP
   }
 </style>
 ![RBAC APIM](../img/RBAC-APIM.png)  
-
-* Configuration de plugin réutilisable : 
-  - [Exemple de configuration](https://github.com/avenirs-esr/srv-dev/blob/2105f8428cff5b7bd904db9118a67a786c6887ab/services/apisix/scripts/routes/experiments/access_control_plugin.curl.sh)
-  - [Exemple d'utilisation au niveau d'une route](https://github.com/avenirs-esr/srv-dev/blob/2105f8428cff5b7bd904db9118a67a786c6887ab/services/apisix/scripts/routes/experiments/access_control-edit.curl.sh)
 * Nécessité de faire le lien entre action et requête http (URI + méthode)
+* Configuration de plugin réutilisable : [exemple de configuration](https://github.com/avenirs-esr/srv-dev/blob/2105f8428cff5b7bd904db9118a67a786c6887ab/services/apisix/scripts/routes/experiments/access_control_plugin.curl.sh) / [exemple d'utilisation au niveau d'une route](https://github.com/avenirs-esr/srv-dev/blob/2105f8428cff5b7bd904db9118a67a786c6887ab/services/apisix/scripts/routes/experiments/access_control-edit.curl.sh)
+
 
 ---
 ## TODO

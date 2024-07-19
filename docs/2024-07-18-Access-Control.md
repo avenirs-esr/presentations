@@ -68,7 +68,7 @@ Arnaud Deman - Architecte et développeur ESUP
 * Besoin d'avoir une gestion fine des droits.
 * S'appuyer sur un modèle éprouvé et compréhensible.
 * Doit s'interfacer avec l'API manager.
-* Système très sollicité : doit être très **réactif**
+* Système très sollicité : doit être très **réactif**.
 * Doit permettre de répondre à différentes questions :
   * L'utilisateur U est-il autorisé à exécuter l'action A concernant la ressource R à un instance t ?
   * Lister les rôles et permissions d'un utilisateur.
@@ -80,7 +80,7 @@ Arnaud Deman - Architecte et développeur ESUP
 ## Role Based Access Control : RBAC
   - Modèle de sécurité classique et éprouvé.
   - Peut-être étendu, dans notre cas on ajoute la notion de contexte : période de validité, établissement, etc.
-  - Dans un premier temps, le choix qui est fait est de développer un système de contrôle d'accès qui réponde spécifiquement aux besoins du projet. L'utilisation d'une solution intégrée de type IAM telle que celle proposée par keycloak nous paraît introduire trop de complexité (synchronisation des ressources) et une dépendance à un éditeur peu souhaitable sur un élément aussi central.
+  - Dans un premier temps, le choix qui est fait est de développer un système de contrôle d'accès qui réponde spécifiquement aux besoins du projet. L'utilisation d'une solution intégrée de type IAM telle que celle proposée par [Keycloak](https://www.keycloak.org/) nous paraît introduire trop de complexité (synchronisation des ressources) et une dépendance à un éditeur peu souhaitable sur un élément aussi central.
 ---
 
 ## RBAC : les concepts
@@ -127,7 +127,7 @@ Arnaud Deman - Architecte et développeur ESUP
 
 <style scoped type="text/css">
   img[alt="RBAC APIM"] {
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -147,6 +147,7 @@ Arnaud Deman - Architecte et développeur ESUP
 * Access token dans les tests unitaires, comment faire ? [exemple](https://github.com/avenirs-esr/avenirs-portfolio-security/blob/0ae2222b83ea6cb62fe6e6a4f5505d3f5ed49a6c/src/test/java/fr/avenirsesr/portfolio/security/controllers/AccessControlControllerTest.java)
 * Test de couverture.
 * Test de charge -> Jmeter ?
+* Gestion du cache : mise en place d'un cache court de quelques secondes (ex. introspection) ?
 * Cohérence des noms de packages / dossier d'architecture.
 * Implémentation des autres méthodes de gestion, dont la liste est à déterminer. Par exemple: 
   * lister les roles/permissions d'un utilisateur

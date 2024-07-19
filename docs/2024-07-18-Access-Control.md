@@ -95,10 +95,20 @@ Arnaud Deman - Architecte et développeur ESUP
 
 ---
 ## RBAC : algorithme 
-![RBAC Assignments](../img/RBAC-algo.png)
+<style scoped type="text/css">
+  img[alt="RBAC Algorithme"] {
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+</style>
+![RBAC Algorithme](../img/RBAC-algo.png)
 
 **Remarque :** la notion de contexte ne représente pas de difficulté particulière à été laissée de côté dans un premier temps pour une question de simplicité.
 
+
+---
 ## Intégration avec APISIX 
 ![RBAC Assignments](../img/RBAC-APIM.png)  
 

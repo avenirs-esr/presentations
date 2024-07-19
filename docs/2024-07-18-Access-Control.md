@@ -113,7 +113,7 @@ Arnaud Deman - Architecte et développeur ESUP
 
 <style scoped type="text/css">
   img[alt="RBAC APIM"] {
-    width: 525px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;

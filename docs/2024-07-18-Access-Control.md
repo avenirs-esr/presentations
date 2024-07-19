@@ -84,10 +84,22 @@ Arnaud Deman - Architecte et développeur ESUP
 ---
 
 ## RBAC : les concepts
+<style scoped type="text/css">
+  img[alt="RBAC Concepts"] {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 ![RBAC Concepts](../img/RBAC-concepts.png)
 
 ---
 ## RBAC : focus sur l'assignation 
+<style scoped type="text/css">
+  img[alt="RBAC Assignments"] {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 ![RBAC Assignments](../img/RBAC-assignment.png)
 
   
